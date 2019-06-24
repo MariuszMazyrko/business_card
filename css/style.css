@@ -51,7 +51,14 @@ p.main__txt--top {
     font-size: 16px;
 }
 
-p.main__txt--bottom {
+p.main__txt--bottom,
+a {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    text-decoration: none;
+    color: #E20613;
+}
+
+.main__txt--top-color {
+    color: #ED6D05;
 }
